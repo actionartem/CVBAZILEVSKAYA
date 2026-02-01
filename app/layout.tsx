@@ -8,9 +8,8 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin", "latin-ext"] });
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata: Metadata = {
-  title: 'UX/UI Дизайнер — Портфолио',
+  title: 'CV BAZILEVSKAYA',
   description: 'Дизайнер интерфейсов с опытом в продуктовых задачах и веб-проектах. Делаю понятные и аккуратные интерфейсы для веба и мобильных приложений.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
