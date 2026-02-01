@@ -32,7 +32,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -2 }}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-muted-foreground hover:text-foreground transition-colors duration-300"
             >
               Telegram
             </motion.a>
@@ -41,7 +41,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -2 }}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-muted-foreground hover:text-foreground transition-colors duration-300"
             >
               Behance
             </motion.a>
