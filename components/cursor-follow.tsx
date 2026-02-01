@@ -50,7 +50,7 @@ export function CursorFollow() {
   return (
     <>
       <motion.div
-        className="fixed top-0 left-0 w-4 h-4 bg-primary rounded-full pointer-events-none z-[100] mix-blend-difference hidden md:block"
+        className="fixed top-0 left-0 w-4 h-4 bg-white rounded-full pointer-events-none z-[100] mix-blend-difference hidden md:block"
         style={{
           x: cursorX,
           y: cursorY,

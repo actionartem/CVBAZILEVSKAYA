@@ -61,7 +61,7 @@ export function ServicesSection() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold mt-4 font-mono"
           >
-            Услуги
+            Что я делаю
           </motion.h2>
         </div>
 
