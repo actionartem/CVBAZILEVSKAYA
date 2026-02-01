@@ -37,7 +37,7 @@ export function MarqueeText({
         {items.map((item, index) => (
           <span
             key={index}
-            className="inline-flex items-center mx-8 text-6xl md:text-8xl font-bold text-border/20 uppercase tracking-tighter font-mono"
+            className="inline-flex items-center mx-8 text-6xl md:text-8xl font-bold text-foreground/30 uppercase tracking-tighter font-mono"
           >
             {item}
             <span className="mx-8 text-primary">•</span>
