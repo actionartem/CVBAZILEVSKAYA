@@ -68,7 +68,7 @@ export function HeroSection() {
 
         {/* Main heading */}
         <AnimatedHeading
-          text="Дизайнер интерфейсов"
+          text={"Дизайнер\nинтерфейсов"}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4 font-mono"
           delay={0.2}
         />

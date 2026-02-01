@@ -98,15 +98,21 @@ export function AnimatedHeading({ text, className, delay = 0, once = true }: Ani
       whileInView="visible"
       viewport={{ once }}
     >
-      {letters.map((letter, index) => (
-        <motion.span
-          key={index}
-          className="inline-block"
-          variants={child}
-        >
-          {letter === " " ? "\u00A0" : letter}
-        </motion.span>
-      ))}
+      {letters.map((letter, index) => {
+        if (letter === "\n") {
+          return <br key={`br-${index}`} />
+        }
+
+        return (
+          <motion.span
+            key={index}
+            className="inline-block"
+            variants={child}
+          >
+            {letter === " " ? "\u00A0" : letter}
+          </motion.span>
+        )
+      })}
     </motion.h1>
   )
 }
