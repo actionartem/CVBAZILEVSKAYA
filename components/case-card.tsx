@@ -53,7 +53,7 @@ export function CaseCard({ title, description, tags, index = 0, color = "primary
         {/* Header */}
         <div className="flex items-start justify-between mb-6">
           <motion.span
-            className="text-6xl font-bold text-border/30 font-mono"
+            className="text-6xl font-bold text-muted-foreground/40 font-mono"
             animate={{ scale: isHovered ? 1.1 : 1, opacity: isHovered ? 0.5 : 0.3 }}
           >
             0{index + 1}
@@ -77,7 +77,7 @@ export function CaseCard({ title, description, tags, index = 0, color = "primary
         </h3>
 
         {/* Description */}
-        <p className="text-muted-foreground mb-6 leading-relaxed line-clamp-3">
+        <p className="text-foreground/70 mb-6 leading-relaxed line-clamp-3">
           {description}
         </p>
 
