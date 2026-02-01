@@ -7,11 +7,19 @@ import { GlowCard } from "@/components/glow-card"
 const skillCategories = [
   {
     title: "Основные инструменты",
-    skills: ["Figma", "Adobe Photoshop", "Illustrator", "InDesign"],
+    skills: ["Figma", "Adobe Photoshop", "Illustrator"],
   },
   {
     title: "Дополнительно",
-    skills: ["After Effects", "Cinema 4D", "Principle", "Framer"],
+    skills: [
+      "After Effects",
+      "Cinema 4D",
+      "Principle",
+      "GPT",
+      "SORA",
+      "NANO BANANA",
+      "MIDJOURNEY",
+    ],
   },
   {
     title: "Веб-технологии",
