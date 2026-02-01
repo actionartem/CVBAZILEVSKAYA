@@ -46,14 +46,6 @@ export function ServicesSection() {
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Section header */}
         <div className="mb-16">
-          <motion.span
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="text-primary text-sm uppercase tracking-wider font-medium"
-          >
-            Что я делаю
-          </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

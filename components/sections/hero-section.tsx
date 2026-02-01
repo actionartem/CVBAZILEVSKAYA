@@ -115,7 +115,6 @@ export function HeroSection() {
           transition={{ duration: 2, repeat: Infinity }}
           className="flex flex-col items-center gap-2 text-muted-foreground"
         >
-          <span className="text-xs uppercase tracking-wider">Скролл</span>
           <ArrowDown className="w-4 h-4" />
         </motion.div>
       </motion.div>
