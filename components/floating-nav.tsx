@@ -7,7 +7,6 @@ import { cn } from "@/lib/utils"
 const navItems = [
   { name: "Главная", href: "#hero" },
   { name: "Обо мне", href: "#about" },
-  { name: "Услуги", href: "#services" },
   { name: "Кейсы", href: "#cases" },
   { name: "Опыт", href: "#experience" },
   { name: "Контакты", href: "#contacts" },
