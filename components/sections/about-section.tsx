@@ -19,7 +19,7 @@ export function AboutSection() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="mb-16"
+          className="mt-4 mb-8"
         >
           <motion.span
             initial={{ opacity: 0, x: -20 }}
@@ -33,7 +33,7 @@ export function AboutSection() {
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left column - Text */}
-          <div className="space-y-8">
+          <div className="space-y-6">
             <AnimatedText
               text="Я дизайнер интерфейсов с опытом в продуктовых задачах и веб-проектах."
               className="text-3xl md:text-4xl font-semibold leading-tight"
@@ -44,17 +44,6 @@ export function AboutSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="text-lg text-muted-foreground leading-relaxed"
-            >
-              Люблю, когда в проекте есть смысл и понятная цель: улучшить сценарий, сделать интерфейс
-              яснее, убрать лишние шаги, привести всё к единому стилю.
-            </motion.p>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4 }}
               className="text-lg text-muted-foreground leading-relaxed"
             >
               Умею разбираться в задаче, задавать правильные вопросы и доводить дизайн до состояния
