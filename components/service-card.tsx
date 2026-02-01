@@ -49,7 +49,7 @@ export function ServiceCard({ title, description, icon: Icon, index = 0 }: Servi
       </motion.div>
 
       {/* Title */}
-      <h3 className="text-lg font-semibold mb-2 text-foreground group-hover:text-primary transition-colors duration-300">
+      <h3 className="text-lg font-semibold mb-2 text-foreground group-hover:text-foreground transition-colors duration-300">
         {title}
       </h3>
 

@@ -86,7 +86,7 @@ export function ContactsSection() {
                   <contact.icon className="w-6 h-6 text-primary" />
                 </motion.div>
                 <p className="text-sm text-muted-foreground mb-1">{contact.title}</p>
-                <p className="font-medium text-foreground group-hover:text-primary transition-colors duration-300">
+                <p className="font-medium text-foreground group-hover:text-foreground transition-colors duration-300">
                   {contact.value}
                 </p>
               </GlowCard>

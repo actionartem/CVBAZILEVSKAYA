@@ -95,14 +95,12 @@ export function SkillsSection() {
           className="mt-12 flex flex-wrap justify-center gap-8"
         >
           <div className="flex items-center gap-3">
-            <span className="text-2xl">🇷🇺</span>
             <div>
               <p className="font-medium text-foreground">Русский</p>
               <p className="text-xs text-muted-foreground">Родной</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <span className="text-2xl">🇬🇧</span>
             <div>
               <p className="font-medium text-foreground">English</p>
               <p className="text-xs text-muted-foreground">B1 — Intermediate</p>
