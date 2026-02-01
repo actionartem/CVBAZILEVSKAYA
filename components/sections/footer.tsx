@@ -37,7 +37,7 @@ export function Footer() {
               Telegram
             </motion.a>
             <motion.a
-              href="https://behance.net"
+              href="https://www.behance.net/kuzihkac015"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -2 }}

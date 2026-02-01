@@ -21,7 +21,7 @@ const contacts = [
   {
     title: "Behance",
     value: "Портфолио",
-    href: "https://behance.net",
+    href: "https://www.behance.net/kuzihkac015",
     icon: ExternalLink,
   },
 ]
