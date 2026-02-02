@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
-const basePath = "/CVBAZILEVSKAYA"
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
 
 const nextConfig = {
   output: "export",
 
   // Чтобы сайт работал в подпапке GitHub Pages: /CVBAZILEVSKAYA
   basePath,
-  assetPrefix: `${basePath}/`,
+  assetPrefix: basePath ? `${basePath}/` : undefined,
   trailingSlash: true,
 
   typescript: {
