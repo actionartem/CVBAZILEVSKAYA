@@ -72,6 +72,14 @@ export function HeroSection() {
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4 font-mono"
           delay={0.2}
         />
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.35 }}
+          className="text-xl md:text-2xl text-primary font-semibold tracking-wide uppercase mb-4"
+        >
+          Мария Базилевская
+        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, scaleX: 0 }}
