@@ -91,7 +91,7 @@ export function CasesSection() {
             href="https://www.behance.net/kuzihkac015"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300 group"
+            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300 group"
           >
             <span>Больше работ на Behance</span>
             <motion.span

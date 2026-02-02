@@ -72,7 +72,7 @@ export function CaseCard({ title, description, tags, index = 0, color = "primary
         </div>
 
         {/* Title */}
-        <h3 className="text-2xl font-semibold mb-3 text-foreground group-hover:text-primary transition-colors duration-300">
+        <h3 className="text-2xl font-semibold mb-3 text-foreground group-hover:text-foreground transition-colors duration-300">
           {title}
         </h3>
 

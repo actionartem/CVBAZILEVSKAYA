@@ -30,7 +30,7 @@ export function SkillTag({ skill, index = 0 }: SkillTagProps) {
         "bg-secondary text-secondary-foreground",
         "border border-border/50 rounded-full",
         "transition-colors duration-300",
-        "hover:bg-primary/10 hover:border-primary/30 hover:text-primary"
+        "hover:bg-primary/10 hover:border-primary/30 hover:text-foreground"
       )}
     >
       {skill}

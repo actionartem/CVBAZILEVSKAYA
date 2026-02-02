@@ -19,14 +19,14 @@ const experiences = [
     role: "Дизайнер интерфейсов",
     period: "Март 2024 — настоящее время",
     description:
-      "Работаю с интерфейсами продукта: макеты экранов и состояний, прототипы, поддержание единого визуального стиля. В задачах важны и логика, и аккуратная визуальная система, которую можно нормально развивать дальше.",
+      "Работаю с интерфейсами продукта: макеты экранов и состояний, прототипы, поддержание единого визуального стиля.",
     logo: (
       <Image
-        src="/images/599d14b0-cc56-495e-a153-b9af1c7eb4c7.webp"
+        src="/pari_logo.svg"
         alt="PARI"
         width={64}
         height={64}
-        className="w-full h-full object-cover"
+        className="w-full h-full object-contain p-3"
       />
     ),
   },
@@ -35,14 +35,14 @@ const experiences = [
     role: "UX/UI дизайнер",
     period: "Апрель 2023 — Ноябрь 2023",
     description:
-      "Дизайн интерфейсов и прототипирование, работа с UI-логикой и согласованием решений. Слежу за консистентностью интерфейса и деталями в состояниях.",
+      "Дизайн интерфейсов и прототипирование, работа с UI-логикой и согласованием решений.",
     logo: (
       <Image
-        src="/images/webmoney-official-logo-transparent-background-free-png.webp"
+        src="/WebMoney_logo.svg"
         alt="WebMoney"
         width={64}
         height={64}
-        className="w-full h-full object-cover"
+        className="w-full h-full object-contain p-3"
       />
     ),
   },
