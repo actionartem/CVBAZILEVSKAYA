@@ -4,7 +4,6 @@ import React from "react"
 
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
-import Image from "next/image"
 
 interface ExperienceCardProps {
   company: string
@@ -47,7 +46,7 @@ export function ExperienceCard({
           )}
         >
           {typeof logo === "string" ? (
-            <Image
+            <img
               src={logo || "/placeholder.svg"}
               alt={company}
               width={64}
