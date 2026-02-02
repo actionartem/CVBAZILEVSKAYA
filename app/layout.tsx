@@ -11,20 +11,10 @@ export const metadata: Metadata = {
   title: 'CV BAZILEVSKAYA',
   description: 'Дизайнер интерфейсов с опытом в продуктовых задачах и веб-проектах. Делаю понятные и аккуратные интерфейсы для веба и мобильных приложений.',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: {
+      url: '/icon.svg',
+      type: 'image/svg+xml',
+    },
     apple: '/apple-icon.png',
   },
 }
