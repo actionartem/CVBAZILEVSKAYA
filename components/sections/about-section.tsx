@@ -19,7 +19,7 @@ export function AboutSection() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="mt-4 mb-8"
+          className="mt-4 mb-4"
         >
           <motion.span
             initial={{ opacity: 0, x: -20 }}
