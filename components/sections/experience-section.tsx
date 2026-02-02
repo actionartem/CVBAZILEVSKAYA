@@ -22,11 +22,11 @@ const experiences = [
       "Работаю с интерфейсами продукта: макеты экранов и состояний, прототипы, поддержание единого визуального стиля.",
     logo: (
       <Image
-        src="/images/599d14b0-cc56-495e-a153-b9af1c7eb4c7.webp"
+        src="/pari_logo.svg"
         alt="PARI"
         width={64}
         height={64}
-        className="w-full h-full object-cover"
+        className="w-full h-full object-contain p-3"
       />
     ),
   },
@@ -38,11 +38,11 @@ const experiences = [
       "Дизайн интерфейсов и прототипирование, работа с UI-логикой и согласованием решений.",
     logo: (
       <Image
-        src="/images/webmoney-official-logo-transparent-background-free-png.webp"
+        src="/WebMoney_logo.svg"
         alt="WebMoney"
         width={64}
         height={64}
-        className="w-full h-full object-cover"
+        className="w-full h-full object-contain p-3"
       />
     ),
   },
