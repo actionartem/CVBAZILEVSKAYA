@@ -29,6 +29,7 @@ const experiences = [
     description:
       "Дизайн интерфейсов и прототипирование, работа с UI-логикой и согласованием решений.",
     logo: withBasePath("/WebMoney_logo.svg"),
+    contentClassName: "pb-16",
   },
   {
     company: "Devs Marketing",
@@ -79,6 +80,7 @@ export function ExperienceSection() {
               description={exp.description}
               logo={exp.logo}
               index={index}
+              contentClassName={exp.contentClassName}
             />
           ))}
         </div>
