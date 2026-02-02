@@ -12,6 +12,7 @@ interface ExperienceCardProps {
   description: string
   logo?: string | React.ReactNode
   index?: number
+  contentClassName?: string
 }
 
 export function ExperienceCard({
@@ -21,6 +22,7 @@ export function ExperienceCard({
   description,
   logo,
   index = 0,
+  contentClassName,
 }: ExperienceCardProps) {
   return (
     <motion.div
@@ -59,7 +61,7 @@ export function ExperienceCard({
         </motion.div>
 
         {/* Content */}
-        <div className="flex-1 pb-12 group-last:pb-0">
+        <div className={cn("flex-1 pb-12 group-last:pb-0", contentClassName)}>
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-3">
             <div>
               <h3 className="text-xl font-semibold text-foreground group-hover:text-foreground transition-colors duration-300">

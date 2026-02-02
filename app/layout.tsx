@@ -2,6 +2,7 @@ import React from "react"
 import type { Metadata, Viewport } from 'next'
 import { Space_Grotesk, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { withBasePath } from "@/lib/asset-path"
 import './globals.css'
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin", "latin-ext"] });
@@ -12,10 +13,9 @@ export const metadata: Metadata = {
   description: 'Дизайнер интерфейсов с опытом в продуктовых задачах и веб-проектах. Делаю понятные и аккуратные интерфейсы для веба и мобильных приложений.',
   icons: {
     icon: {
-      url: '/icon.svg',
+      url: withBasePath('/icon.svg'),
       type: 'image/svg+xml',
     },
-    apple: '/apple-icon.png',
   },
 }
 
