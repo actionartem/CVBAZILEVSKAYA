@@ -52,7 +52,7 @@ export function ExperienceCard({
               alt={company}
               width={64}
               height={64}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain p-3"
             />
           ) : (
             logo
