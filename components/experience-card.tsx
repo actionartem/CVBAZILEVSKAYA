@@ -52,7 +52,6 @@ export function ExperienceCard({
               width={64}
               height={64}
               className="w-full h-full object-contain p-3"
-              loading="lazy"
             />
           ) : (
             logo

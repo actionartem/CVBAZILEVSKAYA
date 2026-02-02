@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { ExperienceCard } from "@/components/experience-card"
+import { withBasePath } from "@/lib/asset-path"
 
 // DM Logo component
 function DMLogoIcon() {
@@ -19,7 +20,7 @@ const experiences = [
     period: "Март 2024 — настоящее время",
     description:
       "Работаю с интерфейсами продукта: макеты экранов и состояний, прототипы, поддержание единого визуального стиля.",
-    logo: "/pari_logo.svg",
+    logo: withBasePath("/pari_logo.svg"),
   },
   {
     company: "WebMoney",
@@ -27,7 +28,7 @@ const experiences = [
     period: "Апрель 2023 — Ноябрь 2023",
     description:
       "Дизайн интерфейсов и прототипирование, работа с UI-логикой и согласованием решений.",
-    logo: "/WebMoney_logo.svg",
+    logo: withBasePath("/WebMoney_logo.svg"),
   },
   {
     company: "Devs Marketing",
